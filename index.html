@@ -6,11 +6,18 @@
     <title>Document</title>
     <link rel="stylesheet" href="index.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
 </head>
 <body>
-  <h1>Weather App 🪄</h1>
+    <video class="bg-video" autoplay loop muted>
+        <source src="Assets/globe.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <div class="overlay"></div>
+  <h1>Weather App</h1>
    <div class="inputBox">
-    <input type="text" id="cin" placeholder="Enter the correct city name">
+    <input type="text" id="cin" placeholder="Enter the correct city name"  autocomplete="off">
    </div>
    <div class="inputBox">
     <input type="text" placeholder="Temperature" id="cout"><br>
@@ -23,5 +30,15 @@
    </div>
    <button class="ResultButton" onclick="Generate()">Click Ok</button>
     <script src="index.js"></script>
+    <div class="DeveloperContact">
+        
+        <a href="https://www.linkedin.com/in/ayush-prakash-tiwari-5281b2286/" target="_blank">
+            <i class="fab fa-linkedin"></i> LinkedIn
+            <br>
+        <a href="https://github.com/AyushPrakash414/Weather-App" target="_blank">
+            <i class="fab fa-github"></i> GitHub
+        </a>
+        
+    </div>
 </body>
 </html>
