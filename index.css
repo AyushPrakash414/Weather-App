@@ -1,0 +1,12 @@
+body
+{
+    background-color: black;
+    color: aliceblue;
+}
+.ResultButton
+{
+margin-top: 10px;
+height:30px;
+width:auto;
+background-color: rgb(139, 170, 160);
+}
